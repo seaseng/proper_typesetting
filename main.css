@@ -1,0 +1,45 @@
+header {
+  border-bottom: 2px solid gray;
+}
+
+body {
+  font-family: serif; 
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.container {
+  margin: 0 auto;  
+  width: 720px;
+}
+
+header, .container h2, .pagination a , footer {
+  font-family: sans-serif;
+}
+
+.content h2, .content h3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+}
+blockquote {
+  font-style: italic;
+}
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+
+.pagination {
+  background-color: #eee;
+  margin: 10px 0px;
+}
+
+.pagination a {
+  color: #222;
+  text-decoration: none;
+}
+
+.pagination a.disabled {
+  color: #ccc;
+}
